@@ -19,7 +19,9 @@
 # A world map with numbered pins 1-16 indexes those stories, stories
 # 17-52 run as a numbered briefs column, and a DATE CHECK box names
 # the big stories deliberately left out because they broke on another
-# day. Every label was typeset programmatically, so the spelling in
+# day. Each tile carries a confidence mark (CONFIRMED, REPORTED,
+# CLAIM, OFFICIAL or FORECAST) with a HOW SURE legend under the map.
+# Every label was typeset programmatically, so the spelling in
 # the image is exact.
 #
 # This program writes entry.png to the output directory in one
@@ -52,6 +54,7 @@ def main() -> None:
     width, height = struct.unpack(">II", data[16:24])
     if width > 1024 or height > 1024:
         raise SystemExit("entry.png exceeds 1024 by 1024 pixels")
+    # The write is the whole entry: one file, written once, in full.
     target = out_dir / "entry.png"
     target.write_bytes(data)
     # Verify the copy before reporting success: a truncated write must
