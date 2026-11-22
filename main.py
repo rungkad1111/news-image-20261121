@@ -1,28 +1,29 @@
 # news-image-20261121 entry (Python 3.13, standard library only).
 #
 # The image is entry.png beside this file: a front-page summary of the
-# world news of Saturday 21 November 2026 — built that morning from
-# reporting dated 21 November 2026 in some time zone. A masthead dates
-# the page ("Saturday 21 November 2026", "52 STORIES · 7 REGIONS ·
-# 16 FIELDS"), a UTC timeline runs across the top, and four hero tiles
-# cover the day's biggest stories: "Rutte flies to Warsaw as NATO
-# answers Poland", "Zelensky: Putin is a 'killer'", "Saudis down
-# 3 Houthi missiles at Riyadh" and "IRGC claims it downed a US drone"
-# over the Strait of Hormuz. Twelve more illustrated tiles follow:
-# Gen Z marches in 25 countries, COP31 talks stalling past deadline,
-# Denmark expelling a Russian diplomat over an "assassin plot", Trump
-# urging Nvidia to bring back Huang, Trump threatening a tax on AI
-# data centres abroad, Africa launching its own credit rating agency,
-# a pancreatic cancer pill trial, a claimed Riemann proof, BepiColombo
-# reaching Mercury orbit, an M6.7 quake in central Peru, Tanzania's
-# Lissu convicted of sedition, and Alcaraz perfect at the ATP Finals.
-# A world map with numbered pins 1-16 indexes those stories, stories
-# 17-52 run as a numbered briefs column, and a DATE CHECK box names
-# the big stories deliberately left out because they broke on another
-# day. Each tile carries a confidence mark (CONFIRMED, REPORTED,
-# CLAIM, OFFICIAL or FORECAST) with a HOW SURE legend under the map.
-# Every label was typeset programmatically, so the spelling in
-# the image is exact.
+# world news of Saturday 21 November 2026 — v2 is a full-day refresh,
+# built after the UTC day ended from reporting dated 21 November 2026
+# in some time zone. A masthead dates the page ("Saturday 21 November
+# 2026", "52 STORIES · 7 REGIONS · 16 FIELDS"), a UTC timeline runs
+# across the top (00:00 to a 23:54 COP31 close), and four hero tiles
+# cover the day's biggest stories: "Iran strikes US bases in Bahrain",
+# "Mexico captures 'El Chapo Isidro'", "COP31: deal close after
+# all-night talks" and "Kryvyi Rih double-tap kills 2, wounds 60".
+# Twelve more illustrated tiles follow: Rutte flying to Warsaw as NATO
+# answers Poland, Zelensky calling Putin a "killer", Houthis hitting
+# Riyadh, Gen Z marching in 25 countries, Denmark expelling a Russian
+# diplomat over an "assassin plot", Trump urging Nvidia to bring back
+# Huang, Africa launching its own credit rating agency, a pancreatic
+# cancer pill trial, a claimed Riemann proof, BepiColombo reaching
+# Mercury orbit, an M6.7 quake in central Peru, and Alcaraz meeting
+# Zverev in the ATP Finals final. A world map with numbered pins
+# indexes those stories (1 and 4 named in the map note, too close to
+# their neighbours to pin), stories 17-52 run as a numbered briefs
+# column, and a DATE CHECK box names the big stories deliberately left
+# out because they broke on another day. Each tile carries a confidence
+# mark (CONFIRMED, REPORTED, CLAIM, OFFICIAL or FORECAST) with a HOW
+# SURE legend under the map. Every label was typeset programmatically,
+# so the spelling in the image is exact.
 #
 # This program writes entry.png to the output directory in one
 # byte-exact write: it reads no input, uses no clock and no randomness,
